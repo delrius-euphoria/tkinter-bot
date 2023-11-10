@@ -1,0 +1,127 @@
+{
+    "tk.Button": {
+        "desc": "To create a pushbutton in a top-level window or frame named parent:",
+        "code": "w = tk.Button(parent, option=value, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//button.html"
+    },
+    "tk.Entry": {
+        "desc": "The purpose of an Entry widget is to let the user see and modify a single line of text.",
+        "code": "w = tk.Entry(parent, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//entry.html"
+    },
+    "tk.Frame": {
+        "desc": "A frame is basically just a container for other widgets.",
+        "code": "w = Frame(parent, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//frame.html"
+    },
+    "tk.Canvas": {
+        "desc": "A canvas is a rectangular area intended for drawing pictures or other complex layouts. On it you can place graphics, text, widgets, or frames. See the following sections for methods that create objects on canvases:",
+        "code": "w = tk.Canvas(parent, option=value, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//canvas.html"
+    },
+    "tk.Label": {
+        "desc": "Label widgets can display one or more lines of text in the same style, or a bitmap or image. To create a label widget in a root window or frame parent:",
+        "code": "w = tk.Label(parent, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//label.html"
+    },
+    "tk.Listbox": {
+        "desc": "The purpose of a listbox widget is to display a set of lines of text. Generally they are intended to allow the user to select one or more items from a list. All the lines of text use the same font. If you need something more like a text editor, see Section\u00a024, \u201cThe Text widget\u201d.",
+        "code": "w = tk.Listbox(parent, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//listbox.html"
+    },
+    "tk.Checkbutton": {
+        "desc": "The purpose of a checkbutton widget (sometimes called \u201ccheckbox\u201d) is to allow the user to read and select a two-way choice. The graphic above shows how checkbuttons look in the off (0) and on (1) state in one implementation: this is a screen shot of two checkbuttons using 24-point Times font.",
+        "code": "w = tk.Checkbutton(parent, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//checkbutton.html"
+    },
+    "tk.Labelframe": {
+        "desc": "The LabelFrame widget, like the Frame widget, is a spatial container\u2014a rectangular area that can contain other widgets. However, unlike the Frame widget, the LabelFrame widget allows you to display a label as part of the border around the area.",
+        "code": "w = tk.LabelFrame(parent, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//labelframe.html"
+    },
+    "tk.Menu": {
+        "desc": "\u201cDrop-down\u201d menus are a popular way to present the user with a number of choices, yet take up minimal space on the face of the application when the user is not making a choice.",
+        "code": "w = tk.Menu(mb, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//menu.html"
+    },
+    "tk.Optionmenu": {
+        "desc": "The purpose of this widget is to offer a fixed set of choices to the user in a drop-down menu.",
+        "code": "w = tk.OptionMenu(parent, variable, choice1, choice2, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//optionmenu.html"
+    },
+    "tk.Radiobutton": {
+        "desc": "Radiobuttons are sets of related widgets that allow the user to select only one of a set of choices. Each radiobutton consists of two parts, the indicator and the label:",
+        "code": "w = tk.Radiobutton(parent, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//radiobutton.html"
+    },
+    "tk.Scale": {
+        "desc": "The purpose of a scale widget is to allow the user to set some int or float value within a specified range. Here are two scale widgets, one horizontal and one vertical:",
+        "code": "w = tk.Scale(parent, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//scale.html"
+    },
+    "tk.Scrollbar": {
+        "desc": "A number of widgets, such as listboxes and canvases, can act like sliding windows into a larger virtual area. You can connect scrollbar widgets to them to give the user a way to slide the view around relative to the contents. Here's a screen shot of an entry widget with an associated scrollbar widget:",
+        "code": "w = tk.Scrollbar(parent, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//scrollbar.html"
+    },
+    "tk.Spinbox": {
+        "desc": "The Spinbox widget allows the user to select values from a given set. The values may be a range of numbers, or a fixed set of strings.",
+        "code": "w = tk.Spinbox(parent, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//spinbox.html"
+    },
+    "tk.Text": {
+        "desc": "Text widgets are a much more generalized method for handling multiple lines of text than the Label widget. Text widgets are pretty much a complete text editor in a window:",
+        "code": "w = tk.Text(parent, option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//text.html"
+    },
+    "tk.Toplevel": {
+        "desc": "A top-level window is a window that has an independent existence under the window manager. It is decorated with the window manager's decorations, and can be moved and resized independently. Your application can use any number of top-level windows.",
+        "code": "w = tk.Toplevel(option, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//toplevel.html"
+    },
+    "tk.Event": {
+        "desc": "An event is something that happens to your application—for example, the user presses a key or clicks or drags the mouse—to which the application needs to react.\nThe Event class is a base class for all events that occur in Tkinter widgets. The Event class is not used directly, but is used as a base class for other classes that represent specific events.",
+        "code": "wid.bind(<[modifier-]...type[-detail]>, func)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter/events.html"
+    },
+    "ttk": {
+        "desc": "The Tk themed widget set is a set of widgets that are designed to look and behave like the native widgets in a platform-native GUI. The widgets are themed using the Tk themed widget set, which means that they look and behave like the native widgets in a platform-native GUI.\nStarting with Tk 8.5, the ttk module became available. This module replaces much (but not all) of the original Tkinter machinery. Use this module to gain these advantages:",
+        "code": "from tkinter import ttk",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter/ttk.html"
+    },
+    "ttk.Combobox": {
+        "desc": "This widget is a combination of an Entry and a drop-down menu. In your application, you will see the usual text entry area, with a downward-pointing arrow. When the user clicks on the arrow, a drop-down menu appears. If the user clicks on one, that choice replaces the current contents of the entry. However, the user may still type text directly into the entry (when it has focus), or edit the current text.",
+        "code": "w = ttk.Combobox(parent, option=value, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//ttk-Combobox.html"
+    },
+    "ttk.Notebook": {
+        "desc": "The purpose of a Notebook widget is to provide an area where the user can select pages of content by clicking on tabs at the top of the area, like these:",
+        "code": "w = ttk.Notebook(parent, option=value, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//ttk-Notebook.html"
+    },
+    "ttk.Panedwindow": {
+        "desc": "This is the ttk version of Section\u00a019, \u201cThe PanedWindow widget\u201d. To create a ttk.PanedWindow widget as the child of a given parent widget:",
+        "code": "w = ttk.PanedWindow(parent, option=value, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//ttk-PanedWindow.html"
+    },
+    "ttk.Progressbar": {
+        "desc": "The purpose of this widget is to reassure the user that something is happening. It can operate in one of two modes:",
+        "code": "w = ttk.Progressbar(parent, option=value, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//ttk-Progressbar.html"
+    },
+    "ttk.Radiobutton": {
+        "desc": "This widget is the ttk version of Section\u00a020, \u201cThe Radiobutton widget\u201d. To create a ttk.Radiobutton widget as the child of a given parent widget, where the option values are given in Table\u00a055, \u201cttk.Radiobutton options\u201d:",
+        "code": "w = ttk.Radiobutton(parent, option=value, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//ttk-Radiobutton.html"
+    },
+    "ttk.Sizegrip": {
+        "desc": "Use this widget to provide a widget that the user can use to resize the entire application window. Typically this widget will be located in the bottom right corner of the application. Be sure to make the entire application resizeable using the techniques described in Section\u00a04.3, \u201cConfiguring column and row sizes\u201d and Section\u00a04.4, \u201cMaking the root window resizeable\u201d.",
+        "code": "w = ttk.Sizegrip(parent, option=value, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//ttk-Sizegrip.html"
+    },
+    "ttk.Treeview": {
+        "desc": "The purpose of the ttk.Treeview widget is to present a hierarchical structure so that the user can use mouse actions to reveal or hide any part of the structure.",
+        "code": "w = ttk.Treeview(parent, option=value, ...)",
+        "link": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter//ttk-Treeview.html"
+    }
+}
