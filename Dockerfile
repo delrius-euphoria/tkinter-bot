@@ -8,4 +8,4 @@ RUN pip3 install -r requirements.txt
 
 COPY ./tkinter-bot ./tkinter-bot
 
-CMD python tkinter-bot/main.py
+CMD python tkinter-bot
