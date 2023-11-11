@@ -169,7 +169,7 @@ class Commands(commands.Cog):
         dt_joined = format_dt(member.joined_at, "R")
 
         embed = discord.Embed(
-            description=f"<@{member.id}> joined {dt_joined}", color=color
+            description=f"<@{member.id}> joined this server {dt_joined}", color=color
         )
         await interaction.response.send_message(embed=embed)
 
